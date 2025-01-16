@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>WEEK 1 EXERCISE</p>
+
+<script>
+// Create a Map
+const fruits = new Map([
+  ["apples", 500],
+  ["bananas", 300],
+  ["oranges", 200]
+]);
+
+console.log(fruits);
+// FILTER
+const ages = [32, 33, 16, 40];
+
+function checkAdult(age) {
+  return age >= 18;
+}
+console.log(ages.filter(checkAdult));
+ 
+ //REDUCE
+ const numbers = [175, 50, 25];
+
+function reduce(total, num) {
+  return total - num;
+}
+console.log( numbers.reduce(reduce));
+
+//FOREACH
+const fruit = ["apple", "orange", "cherry"];
+fruit.forEach((data) => {
+    console.log(`foreach ${data}`);
+    console.log(fruit);
+    
+})
+ //splice
+const Splice = ["Banana", "Orange", "Apple", "Mango"];
+console.log(Splice.splice(2, 0, "Lemon", "Kiwi"));
+ //object
+ let car = {car1:"Fiat", car2:"toyota", car3: "hodan"};
+ console.log(car);
+ 
+</script>
+
+</body>
+</html>
