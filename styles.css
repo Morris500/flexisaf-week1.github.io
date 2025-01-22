@@ -1,0 +1,54 @@
+html{
+    height: 100vh;
+}
+body {
+    margin: 0 ;
+   background-image: url(header-hero-image-model2.5d57ba24.jpg);
+   width: 100%; 
+   height: 100vh;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    /* position: fixed; */
+    padding: 0 1rem;
+    margin-top: 0;
+    
+}
+.nav.icon{
+    justify-content: ;
+}
+.nav .button{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+ .nav .button a{ 
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    
+}
+.nav .button .contact{ 
+   margin-left: 0%;
+}
+.hero{
+    display: flex;
+    height: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.writeup{
+    z-index: 1;
+    justify-content: flex-start;
+    align-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
